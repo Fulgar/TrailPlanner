@@ -293,7 +293,7 @@ def solve(algoData):
 		# print("")
 
 		algoData.closed.append([algoData.currentY, algoData.currentX])
-		algoData.open.remove([algoData.currentY, algoData.currentX])
+		# algoData.open.remove([algoData.currentY, algoData.currentX])
 
 		# Update currentX and currentY
 		algoData.currentX = leastFCoord[1]
